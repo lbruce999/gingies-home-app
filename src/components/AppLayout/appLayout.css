@@ -1,0 +1,20 @@
+/* =========================
+   AppLayout – layout shell (NO sidebar)
+   ========================= */
+
+.app-layout {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-layout__header {
+  width: 100%;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.app-layout__content {
+  flex: 1;
+  padding: 2.5rem;
+  overflow-y: auto;
+}
